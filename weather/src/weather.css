@@ -1,0 +1,95 @@
+
+.box{
+    border: 1px solid black;
+    width: 350px;
+    height: 600px;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-photo/twilight-cloud_1203-6585.jpg?size=626&ext=jpg&ga=GA1.1.1607984414.1684231066&semt=sph);
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+    border-radius: 15px;
+    overflow: unset;
+    border: none;
+
+
+}
+.inputField{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+.image{
+    margin-top: 30px;
+}
+ .tem{
+    font-size: 55px;
+    color: white;
+    font-weight: 400;
+
+
+}
+.city{
+    font-size: 40px;
+    color:white;
+    /* margin-top: 20px; */
+    font-weight: 600;
+    text-transform: capitalize;
+    /* color:blueviolet; */
+ } 
+ .info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* font-size: 30px; */
+    text-transform: capitalize;
+    gap: 1.2rem;
+ }
+ .min,.max,.humidity{
+    font-size: 25px;
+    color:black
+ }
+.error{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+
+@media(max-width:700px){
+    .box{
+        width: 300px;
+        height: 500px;
+    }
+    .inputField{
+        width: 200px;
+        height: 35px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+        margin-left: 45px;
+        /* align-items: center; */
+    }
+    .tem{
+        font-size: 35px;
+    }.city{
+        font-size:30px ;
+    }.info{
+        margin-top: -40px;
+    }
+    .min,.max,.humidity{
+        font-size: 20px;
+        color: black;
+        
+     }
+
+}
